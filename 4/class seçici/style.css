@@ -1,0 +1,7 @@
+.box {
+    width: 300px;
+    background-color: burlywood;
+    padding: 20px;
+    border: 1px solid #333;
+    float: left;
+}

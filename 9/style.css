@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.box {
+    width: 100px;
+    margin: 5px;
+    color: #fff;
+    padding: 10px;
+}
+
+.green {
+    background-color: green;
+    align-self: center;
+
+}
+
+.purple {
+    background-color: #55f;
+}
+
+.red {
+    background-color: red;
+    align-self: flex-end;
+
+}
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: blue;
+}

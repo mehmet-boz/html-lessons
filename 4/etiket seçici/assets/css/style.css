@@ -1,0 +1,56 @@
+body {
+    background-color: #77cbcb;
+    /* Arkaplan rengini değiştirir */
+    margin: 0;
+    /* Dışarıdan boşluğu sıfır yapar */
+}
+
+div {
+    width: 350px;
+    background-color: bisque;
+    padding: 25px;
+}
+
+h1 {
+    color: blue;
+    font-family: sans-serif;
+    /* Yazı tipini değiştirir */
+    margin: 0;
+}
+
+p {
+    /* 
+    iki yana yaslı
+    satır aralığı artırılmış
+    sağdan soldan 25px boşluk
+    */
+    text-align: justify;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+ul {
+    /*
+    arkaplan rengini değiştir
+    içeriden 25px boşluk bırak
+    */
+    background-color: chartreuse;
+    padding: 25px;
+}
+
+li {
+    /* 
+    listenin başındaki işaretleri kaldır
+    */
+    list-style-type: none;
+}
+
+a {
+    /* 
+    alt çizgiyi kaldır
+    */
+    text-decoration: none;
+}
+

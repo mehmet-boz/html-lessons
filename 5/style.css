@@ -1,0 +1,31 @@
+body {
+    margin:0;
+    padding:0;
+
+}
+
+.box {
+    height: 300px;  /* yüksekliği ayarlar */
+    aspect-ratio:1/2; /* en boy oranını belirler. burada genişlik yüksekliği 2 katı olur. */
+    background-color: coral;
+    margin:auto; /* kutuyu yatay olarak ortalar */
+    margin-top: 150px; /* kutunun dışından, yukarıdan 150px boşluk bırakır */ 
+    padding:25px; /* kutunun içinden 25px boşluk bırakır */
+    box-sizing: border-box; /* padding width ve height içerisine dahil edildi. Taşmaları engeller. */ 
+    
+    border:5px solid #5f5; /* 5px kalınlığında yeşil renkte düz kenarlık ekler */
+    
+    /* border-style: solid;
+    border-color: #5f5;
+    border-width: 5px; */
+
+    text-align: justify; /* içindeki metni iki yana yaslı yapar. */ 
+    color: aliceblue;
+}
+
+.box-inner {
+    width:340px;
+    height: 340px;
+    background-color: aqua;
+    
+}

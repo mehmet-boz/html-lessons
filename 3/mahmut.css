@@ -1,0 +1,14 @@
+p {
+    font-size: 30px;
+}
+
+h1 {
+    padding: 10px;
+    background-color: rgb(35, 212, 88);
+    color: rgb(22, 22, 8);
+}
+h2 {
+    padding: 20px;
+    background-color: burlywood;
+    color: brown;
+}
