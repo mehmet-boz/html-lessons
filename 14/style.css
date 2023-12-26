@@ -1,0 +1,30 @@
+.row>div {
+
+    background-color: #eaeaea;
+    border: 1px solid #b1b1b1;
+
+}
+
+#topbar div {
+    height: 40px;
+}
+
+#navbar div {
+    height: 60px;
+}
+
+#hero div {
+    height: 278px;
+}
+
+#services div {
+    height: 150px;
+}
+
+#info {
+    height: 120px;
+}
+
+#footer div {
+    height: 90px;
+}

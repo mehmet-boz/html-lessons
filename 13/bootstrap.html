@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+
+        <div class="input-group mb-5">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button bg-danger text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Bootstrap'i sayfamıza nasıl ekleriz?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <a href="https://www.bootstrapcdn.com" target="_blank">www.bootstrapcdn.com</a> sitesinden
+                        kopyaladığımız CSS'in içindeki HTML linki, oluşturduğumuz HTML projesinin head kısmına
+                        yapıştırılır.
+                        Bu şekilde sayfamıza Bootstrap'i eklemiş olur, özelleştirebilme imkanına sahip oluruz.
+                        Aynı sayfada bulunan Javascript Bundle'ın içindeki HTML linki kopyalanır ve aynı şekilde
+                        yapıştırılır.
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-primary text-white" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        Bootstrap'te butonlar nasıl oluşturulur, temel buton tipleri nelerdir?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Bir html nesnesini butona dönüştürmek için class'ına <code>btn</code> eklemek yeterlidir.
+                        Buna ek olarak butonun rengini ve tipini değiştirebilmek için <code>btn-...</code> kalıbı
+                        kullanılır.
+                        <code>btn-</code>'den sonra varsayılan buton renkleri, buton büyüklüğü ve buton tipi yazılarak
+                        değişiklikler yapılır.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-success text-white" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        Bootsrap'te navbar nasıl eklenir?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that
+                        just about any HTML can go within the <code>.accordion-body</code>, though the transition does
+                        limit
+                        overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="bg-danger">Test</span>
+        <h1 class="bg-primary">Test</h1>
+        <blockquote class="bg-info-subtle">Test</blockquote>
+        <p class="bg-secondary">Test</p>
+        <br>
+
+        <span class="border border-5 border-danger p-4 bg-danger-subtle text-danger mb-5 mt-5 rounded-top-5">Lorem
+            ipsum</span>
+        <hr class="m-5">
+
+        <div class="bg-info-subtle rounded-5  border-4 border border-dark shadow-lg p-3  mb-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae adipisci assumenda a eos, velit
+            repudiandae ex mollitia consectetur laudantium voluptatibus eius consequuntur impedit. Libero dignissimos
+            repellat vero assumenda iusto aliquam!
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
